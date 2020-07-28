@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: #D7E9E0;
+}
+
+.mainImg {
+    width: 100%;
+    height: 100vh;
+}
+
+div#navbar .icofont-navigation-menu,
+div#navbar .icofont-shopping-cart {
+    font-size: 30px;
+    display: block;
+}
+
+#status {
+    width: 100%;
+    height: 100vh;
+    background: url(image/bed2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.col-12 {
+    background-color: white;
+    width: auto;
+    margin-top: 80px;
+    position: absolute;
+    padding: 15px;
+}
+
+.btn {
+    border: 1px solid chocolate;
+    background-color: chocolate;
+    color: white;
+}
+
+.addTocart {
+    position: absolute;
+    bottom: 30%;
+    right: 5%;
+    display: none;
+
+}
+
+.hover:hover .addTocart {
+    display: inline;
+    transition: 0.5s;
+    animation-delay: 0.8s;
+}
+
+
+.come-from-modal.right.fade .modal-dialog {
+    right: -320px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.come-from-modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+.modal.left .modal-dialog {
+    position: fixed;
+    right: 0;
+    margin: auto;
+    width: 400px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.modal.right .modal-body {
+    padding: 15px 15px 80px;
+}
+
+.modal.right.fade .modal-dialog {
+    left: -320px;
+    -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+    transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.right.fade.show .modal-dialog {
+    right: 0;
+}
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+    border-radius: 0;
+    border: none;
+}
+
+#notiqty {
+    font-size: 18px;
+    background: red;
+    color: white;
+    border-radius: 70%;
+    padding-right: 5px;
+    padding-left: 5px;
+    top: 15%;
+    position: absolute;
+    left: 52%;
+}
+
+#colse {
+    cursor: pointer;
+}
+
+.qty {
+    border: none;
+    width: 100%;
+    text-align: right;
+}
+
+.remove,
+#topcart {
+    cursor: pointer;
+}
